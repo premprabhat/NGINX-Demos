@@ -13,4 +13,4 @@ before_script:
 script:
   - docker login -u ${DOCKER_USERNAME} -p ${DOCKER_PASSWORD}
   - cd nginx-hello
-  - docker buildx build --platform linux/amd64,linux/arm64 -t abhishek138/hello_image:arm_latest --push .
+  - docker buildx build --platform linux/amd64,linux/arm64 -t abhishek138/hello_image:arm_latests --push .
